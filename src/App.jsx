@@ -6,6 +6,8 @@ import ShoppingList from './ShoppingList';
 import Clicker from './Clicker';
 import Counter from './Counter';
 import BackGroundColor from './BackGroundColor';
+import Arrays from './Arrays';
+import ScoreKeeper from './ScoreKeeper';
 // import Chicken from "./Chicken";
 
 const colors = [
@@ -19,7 +21,9 @@ const colors = [
 function App() {
   return (
     <div>
-      <BackGroundColor colors={colors}/>
+      <ScoreKeeper size = {2} target = {4}/>
+      {/* <BackGroundColor colors={colors}/> */}
+      {/* <Arrays /> */}
       {/* <Counter /> */}
       {/* <Clicker message = "Hi there" buttonText = "Click me please" /> */}
       {/* <DoubleDice />
